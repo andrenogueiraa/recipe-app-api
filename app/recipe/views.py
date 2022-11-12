@@ -15,7 +15,6 @@ from rest_framework import (
 )
 from rest_framework.decorators import action
 from rest_framework.response import Response
-from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
 
 from core.models import (
@@ -46,7 +45,6 @@ class RecipeViewSet(viewsets.ModelViewSet):
     """View for manage recipe APIs."""
     serializer_class = serializers.RecipeDetailSerializer
     queryset = Recipe.objects.all()
-    authentication_classes = [TokenAuthentication]
     permission_classes = [IsAuthenticated]
 
     def _params_to_ints(self, qs):
@@ -109,9 +107,10 @@ class RecipeViewSet(viewsets.ModelViewSet):
 class BaseRecipeAttrViewSet(mixins.DestroyModelMixin,
                             mixins.UpdateModelMixin,
                             mixins.ListModelMixin,
+                            mixins.CreateModelMixin,
+                            mixins.RetrieveModelMixin,
                             viewsets.GenericViewSet):
     """Base viewset for recipe attributes."""
-    authentication_classes = [TokenAuthentication]
     permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
