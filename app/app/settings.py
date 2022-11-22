@@ -158,13 +158,16 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
 ]
 
-ALLOWED_HOSTS = ['*']
-
-CORS_ORIGIN_ALLOW_ALL = True
-CORS_ALLOW_CREDENTIALS = True
-
 SPECTACULAR_SETTINGS = {
+    "TITLE": "Projeto BACKEND (API DJANGO - DRF)",
+    "DESCRIPTION": "Documentation of API endpoints of Projeto BACKEND (API DJANGO - DRF)",
+    "VERSION": "1.0.0",
     'COMPONENT_SPLIT_REQUEST': True,
+    # "SERVE_PERMISSIONS": ["rest_framework.permissions.IsAdminUser"],
+    "SERVERS": [
+        {"url": "http://localhost:8000", "description": "Local Development server"},
+        {"url": "https://andrenogueiraa.api.io", "description": "Production server"}, # TODO: Ajustar DOMÍNIO PRODUÇÃO
+    ],
 }
 
 SIMPLE_JWT = {
@@ -175,7 +178,7 @@ SIMPLE_JWT = {
     'UPDATE_LAST_LOGIN': False,
 
     'ALGORITHM': 'HS256',
-    'SIGNING_KEY': SECRET_KEY,
+    'SIGNING_KEY': 'your secret key here',
     'VERIFYING_KEY': None,
     'AUDIENCE': None,
     'ISSUER': None,
