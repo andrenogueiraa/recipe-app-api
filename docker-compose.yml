@@ -36,20 +36,6 @@ services:
       - POSTGRES_USER=devuser
       - POSTGRES_PASSWORD=changeme
 
-  pgadmin:
-    container_name: pgadmin4_container
-    image: dpage/pgadmin4
-    restart: always
-    environment:
-      PGADMIN_DEFAULT_EMAIL: admin@admin.com
-      PGADMIN_DEFAULT_PASSWORD: secret
-      PGADMIN_LISTEN_PORT: 80
-    ports:
-      - "8080:80"
-    volumes:
-      - dev-pgadmin-data:/var/lib/pgadmin
-
 volumes:
   dev-db-data:
   dev-static-data:
-  dev-pgadmin-data:
