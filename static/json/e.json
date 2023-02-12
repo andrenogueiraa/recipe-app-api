@@ -1,0 +1,98 @@
+{
+  "nome": "Proteção de Mananciais de Abastecimento Público",
+  "letter_cap": "E",
+  "pontuacao": 0,
+  "pontuacao_minima": 14,
+  "items": [
+    {
+      "id": 1,
+      "nome": "Recursos Superficiais e Subterrâneos",
+      "span": 2,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "O Município possui programa de conservação ou recomposição da vegetação das áreas de recarga do lençol freático?",
+          "valor": 3,
+          "observacoes": [
+            "Apresentou documento contendo Programa de Conservação ou recomposição da vegetação das áreas de recarga do lençol subterrâneo/freático? (relatórios, fotografias datadas)"
+          ]
+        },
+        {
+          "id": 2,
+          "requisito": "O Município possui programa de conservação ou replantio das matas ciliares ou nascentes situadas ao longo dos cursos de água?",
+          "valor": 4,
+          "observacoes": [
+            "Apresentou documento contendo Programa de Conservação ou replantio das matas ciliares ou nascentes situadas ao longo dos cursos de água? (relatórios, fotografias datadas)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Aspectos Quantitativos e Qualitativos",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Possui instrumentos legais e/ou práticas de disciplina de uso do solo e de recursos hídricos e manejo adequados do solo nas culturas agrícolas, por meio de técnicas apropriadas como plantio em nível em áreas marginais ao curso d’água?",
+          "valor": 3,
+          "observacoes": ["Apresentou cópia do(s) Instrumento(s) Legal(is)?"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Destinação Adequada de Efluentes",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Percentual de população atendida com o sistema de esgotamento sanitário implantado: 0 a 25% da população atendida (0 pontos) / 26 a 50% da população atendida (2 pontos) / 51 a 100% da população atendida (6 pontos)",
+          "valor": 6,
+          "observacoes": [
+            "Apresentou cópia da Licença de Operação com Relatório indicando percentual de população atendida com o sistema de esgotamento sanitário implantado?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Monitoramento de Água",
+      "span": 4,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Como é considerada a qualidade da água bruta destinada ao abastecimento humano? Péssima (0 pontos) / Regular (1 ponto) / Boa (2 pontos) / Ótima (3 pontos)",
+          "valor": 3,
+          "observacoes": [
+            "Apresentou laudo técnico em conformidade com a portaria nº 2.914, de 12/12/2011 do M.S?",
+            "Apresentou laudo técnico com os seguintes parâmetros: oxigênio dissolvido – OD, PH, turbidez, nitrato, DBO, condutividade, sólidos totais dissolvidos, clorofila A e fósforo?"
+          ]
+        },
+        {
+          "id": 2,
+          "requisito": "Os sistemas e soluções coletivas de abastecimento de água para consumo humano POSSUEM plano de amostragem de cada sistema e solução aprovado pela autoridade municipal?",
+          "valor": 2,
+          "observacoes": ["Apresentou cópia do plano?"]
+        },
+        {
+          "id": 3,
+          "requisito": "Os sistemas e soluções coletivas de abastecimento de água para consumo humano cumprem o plano de amostragem de cada sistema e solução aprovado pela autoridade municipal?",
+          "valor": 3,
+          "observacoes": [
+            "Apresentou relatório e laudo técnico acompanhado de registro fotográfico datado comprovando a execução com percentual?"
+          ]
+        },
+        {
+          "id": 4,
+          "requisito": "Qual o índice de cobertura de monitoramento da qualidade da água dos mananciais do município? 0,01 - 0,20 (0 pontos) / 0,21 - 0,50 (1 ponto) / 0,51 - 0,80 (2 pontos) / 0,81 - 1,00 (3 pontos)",
+          "valor": 3,
+          "observacoes": [
+            "Apresentou cópia do termo de cooperação com a concessionária, ou laboratório certificado e os laudos de análise da água?",
+            "Apresentou mapa hidrográfico do município em escala 1:100.000?"
+          ]
+        }
+      ]
+    }
+  ]
+}

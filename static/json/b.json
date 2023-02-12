@@ -1,0 +1,153 @@
+{
+  "nome": "Educação Ambiental",
+  "letter_cap": "B",
+  "pontuacao": 0,
+  "pontuacao_minima": 24,
+  "items": [
+    {
+      "id": 1,
+      "nome": "Programa Municipal de Educação Ambiental",
+      "span": 2,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Instituiu o Programa Municipal de Educação Ambiental?",
+          "valor": 2,
+          "observacoes": [
+            "Apresentou ato legal de instituição do plano e cópia do plano municipal de educação ambiental?"
+          ]
+        },
+        {
+          "id": 2,
+          "requisito": "Executou no mínimo 50% das ações do Programa Municipal de Educação Ambiental?",
+          "valor": 3,
+          "observacoes": [
+            "Apresentou cópia dos projetos e documentos comprobatórios de execução com percentual?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Educação Ambiental Informal",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Incentiva a capacitação de Técnicos e Gestores Municipais para a participação em eventos de capacitação em áreas correlatas ao meio ambiente?",
+          "valor": 3,
+          "observacoes": ["Apresentou cópia dos Certificados?"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Educação Ambiental Formal",
+      "span": 3,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Promove a capacitação de professores?",
+          "valor": 3,
+          "observacoes": [
+            "Apresentou relatórios das atividades desenvolvidas contendo cópias de ementas, atas, listas de frequências, fotografias e folders de eventos de educação ambiental (Palestras, Seminários, Cursos, etc)?"
+          ]
+        },
+        {
+          "id": 2,
+          "requisito": "Realiza atividades de educação ambiental voltadas às escolas?",
+          "valor": 4,
+          "observacoes": [
+            "Apresentou relatórios das atividades desenvolvidas contendo cópias de ementas, atas, listas de frequências, fotografias e folders de eventos de educação ambiental (Palestras, Seminários, Cursos, etc)?"
+          ]
+        },
+        {
+          "id": 3,
+          "requisito": "Inseriu a educação ambiental no projeto político pedagógico?",
+          "valor": 5,
+          "observacoes": [
+            "Apresentou cópia do Projeto Político Pedagógico ou do Projeto de Desenvolvimento Escolar?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Implantação de Projetos de Atividades de Educação Ambiental",
+      "span": 6,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Semana do meio ambiente",
+          "valor": 4,
+          "observacoes": [
+            "Apresentou cópias de ementas, atas, listas de frequências, fotografias e folders de eventos de educação ambiental (Palestras, Seminários, Cursos, etc) e referidas notas fiscais?"
+          ]
+        },
+        {
+          "id": 2,
+          "requisito": "Semana da água",
+          "valor": 4,
+          "observacoes": [
+            "Apresentou cópias de ementas, atas, listas de frequências, fotografias e folders de eventos de educação ambiental (Palestras, Seminários, Cursos, etc) e referidas notas fiscais?"
+          ]
+        },
+        {
+          "id": 3,
+          "requisito": "Dia de campo",
+          "valor": 4,
+          "observacoes": [
+            "Apresentou cópias de ementas, atas, listas de frequências, fotografias e folders de eventos de educação ambiental (Palestras, Seminários, Cursos, etc) e referidas notas fiscais?"
+          ]
+        },
+        {
+          "id": 4,
+          "requisito": "Fóruns, oficinas e seminários",
+          "valor": 2,
+          "observacoes": [
+            "Apresentou cópias de ementas, atas, listas de frequências, fotografias e folders de eventos de educação ambiental (Palestras, Seminários, Cursos, etc) e referidas notas fiscais?"
+          ]
+        },
+        {
+          "id": 4,
+          "requisito": "Mobilizações e caminhadas",
+          "valor": 2,
+          "observacoes": [
+            "Apresentou cópias de ementas, atas, listas de frequências, fotografias e folders de eventos de educação ambiental (Palestras, Seminários, Cursos, etc) e referidas notas fiscais?"
+          ]
+        },
+        {
+          "id": 4,
+          "requisito": "Palestras",
+          "valor": 2,
+          "observacoes": [
+            "Apresentou cópias de ementas, atas, listas de frequências, fotografias e folders de eventos de educação ambiental (Palestras, Seminários, Cursos, etc) e referidas notas fiscais?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Educação Ambiental em Assentamentos da Reforma Agrária",
+      "span": 2,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Realizou ações de Educação Ambiental?",
+          "valor": 3,
+          "observacoes": [
+            "Apresentou cópias de ementas, atas, listas de frequências, fotografias e folders de eventos de educação ambiental (Palestras, Seminários, Cursos, etc) e referidas notas fiscais e declaração do INCRA atestando a existência do assentamento, termo de cooperação técnica?"
+          ]
+        },
+        {
+          "id": 2,
+          "requisito": "Realizou práticas agroecológicas?",
+          "valor": 5,
+          "observacoes": [
+            "Apresentou cópias de ementas, atas, listas de frequências, fotografias e folders de eventos de educação ambiental (Palestras, Seminários, Cursos, etc) e referidas notas fiscais e declaração do INCRA atestando a existência do assentamento, termo de cooperação técnica?"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "nome": "Unidades de Conservação",
+  "letter_cap": "H",
+  "pontuacao": 0,
+  "pontuacao_minima": 20,
+  "items": [
+    {
+      "id": 1,
+      "nome": "Existência de Unidade de Conservação no Município",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Existem unidades de conservação no município?",
+          "valor": 7,
+          "observacoes": [
+            "Apresentou cópia do Ato Normativo de Criação de cada UC?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Limites da Unidade de Conservação",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "As Unidades de Conservação Municipais têm seus limites demarcados?",
+          "valor": 4,
+          "observacoes": [
+            "Apresentou mapa com localização dos marcos, limites naturais, placas indicativas, cercas, aceiros, estradas e outras indicações?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Planejamento e Manejo das UC",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "O Município elabora e executa integralmente Plano de Manejo para as Unidades de Conservação?",
+          "valor": 5,
+          "observacoes": [
+            "Apresentou Publicação oficial do documento?",
+            "Apresentou equipe técnica própria ou Contrato para elaboração do plano?",
+            "Apresentou relatórios parciais de execução do plano, fotografias datadas?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Desenvolvimento de Atividades",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "O Município desenvolve múltiplas atividades visando a proteção dos recursos ambientais?",
+          "valor": 2,
+          "observacoes": [
+            "Apresentou relatórios parciais de execução do programa?",
+            "Apresentou documento contendo o Programa de Educação Ambiental em execução ou executado?",
+            "Apresentou documento contendo o Programa de Proteção à Biodiversidade em execução ou executado?",
+            "Apresentou Plano Operativo Anual?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Colegiado Participativo",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "As Unidades de Conservação Municipais possuem colegiado em atividade regular?",
+          "valor": 5,
+          "observacoes": [
+            "Apresentou Ato legal de criação do Conselho?",
+            "Apresentou ata de posse dos membros?",
+            "Apresentou atas das reuniões do Conselho?",
+            "Apresentou ato legal de criação do Conselho?",
+            "Apresentou ata de posse dos membros?",
+            "Apresentou atas das reuniões do Conselho?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Recursos Humanos",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "O Município dispõe de funcionários voltados ao manejo das Unidades Conservação?",
+          "valor": 3,
+          "observacoes": [
+            "Comprovou quadro funcional próprio, convênio ou contrato?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Infraestrutura e Equipamentos",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "O Município dispõe de equipamentos e instalações adequados ao manejo das Unidades de Conservação?",
+          "valor": 5,
+          "observacoes": ["Apresentou laudo técnico com registro fotográfico?"]
+        }
+      ]
+    }
+  ]
+}

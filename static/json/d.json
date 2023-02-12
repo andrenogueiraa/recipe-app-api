@@ -1,0 +1,90 @@
+{
+  "nome": "Redução do Risco de Queimadas e Conservação dos Recursos Ambientais",
+  "letter_cap": "D",
+  "pontuacao": 0,
+  "pontuacao_minima": 14,
+  "items": [
+    {
+      "id": 1,
+      "nome": "Combate e Controle de Queimadas",
+      "span": 6,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "O Município apoia a organização de brigada civil de combate a incêndios?",
+          "valor": 3,
+          "observacoes": [
+            "Apresentou cópia da Lei de Criação da Associação de Brigadista?",
+            "Apresentou cópia do Estatuto da Associação de Brigadista?",
+            "Apresentou cópia dos contratos individuais dos brigadistas?",
+            "Apresentou cópia de ato oficial de destinação de sala ou imóvel para organização das atividades de prevenção e combate?",
+            "Apresentou notas fiscais dos EPIs?"
+          ]
+        },
+        {
+          "id": 2,
+          "requisito": "Dispõe de plano de prevenção e combate a incêndios e queimadas?",
+          "valor": 2,
+          "observacoes": [
+            "Apresentou cópia do Plano de Prevenção e Combate a Incêndios e Queimadas?"
+          ]
+        },
+        {
+          "id": 3,
+          "requisito": "Possui cooperação técnica com brigadas voluntárias?",
+          "valor": 1,
+          "observacoes": [
+            "Apresentou cópia do Termo de Cooperação com a Associação de Brigadistas?"
+          ]
+        },
+        {
+          "id": 4,
+          "requisito": "Promove ações de educação ambiental visando prevenção do uso do fogo?",
+          "valor": 3,
+          "observacoes": [
+            "Apresentou cópias de ementas, atas, listas de frequências, fotografias e folders de eventos de combate ao fogo (palestras, seminários, cursos, etc)?"
+          ]
+        },
+        {
+          "id": 4,
+          "requisito": "Promove ações de educação ambiental visando prevenção do uso do fogo em assentamentos?",
+          "valor": 5,
+          "observacoes": [
+            "Apresentou cópias de ementas, atas, listas de frequências, fotografias e folders de eventos de combate ao fogo em assentamentos (palestras, seminários, cursos, etc)?"
+          ]
+        },
+        {
+          "id": 4,
+          "requisito": "Fornece apoio logístico ao brigadista?",
+          "valor": 2,
+          "observacoes": [
+            "Apresentou relatório de atividades contra o fogo nos limites municipais, com registro fotográfico?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Conservação do Solo, da Água e da Biodiversidade",
+      "span": 2,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Dispõe de propostas ou plano, programas, ou projetos de gestão do uso da água, conservação do solo e/ou biodiversidade?",
+          "valor": 6,
+          "observacoes": [
+            "Apresentou cópia da(s) Proposta(s) ou Plano(s), Programa(s) ou Projeto(s) e relatórios?"
+          ]
+        },
+        {
+          "id": 2,
+          "requisito": "Dispões de ações efetivas de mitigação de impactos sobre o solo, recursos hídricos e/ou biodiversidade e recuperação de espécies em áreas de preservação permanente?",
+          "valor": 5,
+          "observacoes": [
+            "Apresentou cópia de Relatório(s) das Ações, acompanhados de registro fotográfico datado, assinado(s) por responsável técnico (ART), quando for o caso?"
+          ]
+        }
+      ]
+    }
+  ]
+}

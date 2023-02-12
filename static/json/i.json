@@ -1,0 +1,135 @@
+{
+  "nome": "Política Municipal de Meio Ambiente",
+  "letter_cap": "I",
+  "pontuacao": 0,
+  "pontuacao_minima": 14,
+  "items": [
+    {
+      "id": 1,
+      "nome": "Implementação da Política Municipal de Meio Ambiente",
+      "span": 4,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Criou e aprovou a Política Municipal de Meio Ambiente?",
+          "valor": 3,
+          "observacoes": [
+            "Apresentou cópia da Lei Ambiental aprovada?",
+            "Apresentou decreto de Regulamentação da Lei Ambiental?"
+          ]
+        },
+        {
+          "id": 2,
+          "requisito": "Criou e implantou órgão executivo municipal?",
+          "valor": 2,
+          "observacoes": [
+            "Apresentou cópia da Lei de Criação do Órgão Executivo Municipal?",
+            "Apresentou cópia do Ato ou Decreto de nomeação do Secretário e Técnicos do Órgão Municipal de Meio Ambiente?"
+          ]
+        },
+        {
+          "id": 3,
+          "requisito": "Criou o Conselho Municipal de Meio Ambiente?",
+          "valor": 2,
+          "observacoes": [
+            "Apresentou cópia do Ato de Criação do Conselho Municipal do Meio Ambiente e do regimento interno?",
+            "Apresentou cópia das atas das reuniões?"
+          ]
+        },
+        {
+          "id": 4,
+          "requisito": "Criou o Fundo Municipal do Meio Ambiente?",
+          "valor": 2,
+          "observacoes": [
+            "Apresentou cópia da Lei de Criação do Fundo Municipal do Meio Ambiente e do decreto de regulamentação?",
+            "Apresentou cópia das atas das reuniões e do Termo de posse dos conselheiros do Conselho Gestor do Fundo?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Agenda 21 Local",
+      "span": 3,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Realizou o planejamento participativo da Agenda 21 Local?",
+          "valor": 3,
+          "observacoes": [
+            "Apresentou lei ou decreto de criação?",
+            "Apresentou atas das reuniões?"
+          ]
+        },
+        {
+          "id": 2,
+          "requisito": "Elaborou ou revisou Plano de Desenvolvimento Local Sustentável?",
+          "valor": 2,
+          "observacoes": ["Apresentou cópia do plano?"]
+        },
+        {
+          "id": 3,
+          "requisito": "Executou as ações prioritárias do Plano de Desenvolvimento Local?",
+          "valor": 3,
+          "observacoes": [
+            "Apresentou cópia do plano de trabalho, relatório de gestão, atas das reuniões, cópia do PPA, cópia de projetos?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Licenciamento Ambiental Municipal",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "O Município possui condições de habilitação legal para execução do licenciamento ambiental? Não se habilitou (0 pontos) / Em processo de habilitação (1 ponto) / Habilitou-se e executa Licenciamento (4 pontos)",
+          "valor": 4,
+          "observacoes": [
+            "Apresentou comprovante de Habilitação ao Licenciamento, emitido pela SEMAR?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Planejamento Ambiental",
+      "span": 4,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Dispõe de diagnóstico dos principais problemas ambientais do município?",
+          "valor": 1,
+          "observacoes": [
+            "Apresentou o diagnóstico dos principais problemas ambientais do município?"
+          ]
+        },
+        {
+          "id": 2,
+          "requisito": "Dispõe de prioridades ambientais definidas para o município?",
+          "valor": 1,
+          "observacoes": [
+            "Apresentou documento contendo prioridades ambientais definidas para o município, assinado por responsável técnico, quando for o caso?"
+          ]
+        },
+        {
+          "id": 3,
+          "requisito": "Dispõe de Plano de Ação Ambiental, ou similar, detalhado para o município?",
+          "valor": 2,
+          "observacoes": [
+            "Apresentou documento contendo o Plano de Ação Ambiental, assinado por responsável técnico, quando for o caso?"
+          ]
+        },
+        {
+          "id": 4,
+          "requisito": "Demonstrou resultados alcançados decorrentes do processo de planejamento?",
+          "valor": 3,
+          "observacoes": [
+            "Apresentou relatório contendo melhorias ocorridas provenientes da execução do planejamento ambiental do município, assinado pelo gestor municipal?"
+          ]
+        }
+      ]
+    }
+  ]
+}

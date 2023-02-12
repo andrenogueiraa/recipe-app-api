@@ -1,0 +1,41 @@
+{
+  "id": 1,
+  "nome": "Habilitação",
+  "itens": [
+    {
+      "id": 1,
+      "requisito": "O Município requerente apresentou os Dados Gerais de Identificação? (Requerimento de Habilitação e Certificação do Selo Ambiental e Questionário de Avaliação (Anexo II), integralmente preenchidos e assinados pelo gestor municipal?)",
+      "edital": "Apresentou as informações solicitadas?"
+    },
+    {
+      "id": 2,
+      "requisito": "O Município requerente apresentou os dados do Representante Legal?",
+      "edital": "Apresentou as informações solicitadas?"
+    },
+    {
+      "id": 3,
+      "requisito": "O Município apresentou cópia de documento comprobatório de Instrumento Legal de Criação do Conselho Municipal de Defesa do Meio Ambiente?",
+      "edital": "Apresentou as informações solicitadas?"
+    },
+    {
+      "id": 4,
+      "requisito": "O Município apresentou cópia de documento comprobatório de Ato Normativo de Aprovação do Regimento do Conselho Municipal de Defesa do Meio Ambiente?",
+      "edital": "Apresentou as informações solicitadas?"
+    },
+    {
+      "id": 5,
+      "requisito": "O Município apresentou cópia de documento comprobatório das Atas das Reuniões realizadas?",
+      "edital": "Apresentou as informações solicitadas?"
+    },
+    {
+      "id": 6,
+      "requisito": "O Município apresentou cópia de documento comprobatório de Capítulo do Plano Diretor que trata do Meio Ambiente, quando couber?",
+      "edital": "Município com população inferior a 20.000 habitantes?"
+    },
+    {
+      "id": 7,
+      "requisito": "O Município atendeu às formalidades do Edital?",
+      "edital": "Atendeu às formalidades do edital?"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "nome": "Redução do Índice de Desmatamento",
+  "letter_cap": "C",
+  "pontuacao": 0,
+  "pontuacao_minima": 20,
+  "items": [
+    {
+      "id": 1,
+      "nome": "Redução do Índice de Desmatamento",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Houve redução efetiva do índice de desmatamento no município?",
+          "valor": 20,
+          "observacoes": ["Escrever sobre o parecer do CGEO"]
+        }
+      ]
+    }
+  ]
+}

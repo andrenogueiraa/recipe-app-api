@@ -3,8 +3,9 @@ Django settings for app project.
 """
 
 import os
-from pathlib import Path
+
 from datetime import timedelta
+from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -36,14 +37,18 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_filters',
     'corsheaders',
     'rest_framework',
     'rest_framework.authtoken',
+
     'drf_spectacular',
     'djoser',
+
     'core',
     'user',
     'recipe',
+    'patrimonio',
 ]
 
 MIDDLEWARE = [
@@ -96,18 +101,21 @@ DATABASES = {
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
-AUTH_PASSWORD_VALIDATORS = [
+AUTH_PASSWORD_VALIDATORS = [{
+    'NAME':
+    'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+},
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME':
+        'django.contrib.auth.password_validation.MinimumLengthValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME':
+        'django.contrib.auth.password_validation.CommonPasswordValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME':
+        'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
 
@@ -149,8 +157,13 @@ REST_FRAMEWORK = {
     ],
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
-        'rest_framework.authentication.TokenAuthentication',
+        # 'rest_framework.authentication.TokenAuthentication',
     ),
+    'DEFAULT_PAGINATION_CLASS':
+        'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 12,
+    'DEFAULT_FILTER_BACKENDS':
+        ['django_filters.rest_framework.DjangoFilterBackend']
 }
 
 CORS_ALLOWED_ORIGINS = [
@@ -160,18 +173,20 @@ CORS_ALLOWED_ORIGINS = [
 
 SPECTACULAR_SETTINGS = {
     "TITLE": "Projeto BACKEND (API DJANGO - DRF)",
-    "DESCRIPTION": "Documentation of API endpoints of Projeto BACKEND (API DJANGO - DRF)",
+    "DESCRIPTION":
+        "Documentation of API endpoints of Projeto BACKEND (API DJANGO - DRF)",
     "VERSION": "1.0.0",
     'COMPONENT_SPLIT_REQUEST': True,
     # "SERVE_PERMISSIONS": ["rest_framework.permissions.IsAdminUser"],
-    "SERVERS": [
-        {"url": "http://localhost:8000", "description": "Local Development server"},
-        {"url": "https://andrenogueiraa.api.io", "description": "Production server"}, # TODO: Ajustar DOMÍNIO PRODUÇÃO
-    ],
+    # "SERVERS": [
+    #     {"url": "http://localhost:8000", "description": "Local"},
+    #     {"url": "https://andrenogueiraa.api.io", "description":
+    #  "Production server"}, # TODO: Ajustar DOMÍNIO PRODUÇÃO
+    # ],
 }
 
 SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=30),
+    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=5),
     'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
     'ROTATE_REFRESH_TOKENS': False,
     'BLACKLIST_AFTER_ROTATION': False,
@@ -189,7 +204,8 @@ SIMPLE_JWT = {
     'AUTH_HEADER_NAME': 'HTTP_AUTHORIZATION',
     'USER_ID_FIELD': 'id',
     'USER_ID_CLAIM': 'user_id',
-    'USER_AUTHENTICATION_RULE': 'rest_framework_simplejwt.authentication.default_user_authentication_rule',
+    'USER_AUTHENTICATION_RULE':
+    'rest_framework_simplejwt.authentication.default_user_authentication_rule',
 
     'AUTH_TOKEN_CLASSES': ('rest_framework_simplejwt.tokens.AccessToken',),
     'TOKEN_TYPE_CLAIM': 'token_type',
@@ -204,24 +220,42 @@ SIMPLE_JWT = {
 
 DJOSER = {
     "SERIALIZERS": {
-        'activation': 'djoser.serializers.ActivationSerializer',
-        'password_reset': 'djoser.serializers.SendEmailResetSerializer',
-        'password_reset_confirm': 'djoser.serializers.PasswordResetConfirmSerializer',
-        'password_reset_confirm_retype': 'djoser.serializers.PasswordResetConfirmRetypeSerializer',
-        'set_password': 'djoser.serializers.SetPasswordSerializer',
-        'set_password_retype': 'djoser.serializers.SetPasswordRetypeSerializer',
-        'set_username': 'djoser.serializers.SetUsernameSerializer',
-        'set_username_retype': 'djoser.serializers.SetUsernameRetypeSerializer',
-        'username_reset': 'djoser.serializers.SendEmailResetSerializer',
-        'username_reset_confirm': 'djoser.serializers.UsernameResetConfirmSerializer',
-        'username_reset_confirm_retype': 'djoser.serializers.UsernameResetConfirmRetypeSerializer',
-        'user_create': 'user.serializers.UserSerializer',
-        'user_create_password_retype': 'djoser.serializers.UserCreatePasswordRetypeSerializer',
-        'user_delete': 'djoser.serializers.UserDeleteSerializer',
-        'user': 'user.serializers.UserSerializer',
-        'current_user': 'djoser.serializers.UserSerializer',
-        'token': 'djoser.serializers.TokenSerializer',
-        'token_create': 'djoser.serializers.TokenCreateSerializer',
+        'activation':
+            'djoser.serializers.ActivationSerializer',
+        'password_reset':
+            'djoser.serializers.SendEmailResetSerializer',
+        'password_reset_confirm':
+            'djoser.serializers.PasswordResetConfirmSerializer',
+        'password_reset_confirm_retype':
+            'djoser.serializers.PasswordResetConfirmRetypeSerializer',
+        'set_password':
+            'djoser.serializers.SetPasswordSerializer',
+        'set_password_retype':
+            'djoser.serializers.SetPasswordRetypeSerializer',
+        'set_username':
+            'djoser.serializers.SetUsernameSerializer',
+        'set_username_retype':
+            'djoser.serializers.SetUsernameRetypeSerializer',
+        'username_reset':
+            'djoser.serializers.SendEmailResetSerializer',
+        'username_reset_confirm':
+            'djoser.serializers.UsernameResetConfirmSerializer',
+        'username_reset_confirm_retype':
+            'djoser.serializers.UsernameResetConfirmRetypeSerializer',
+        'user_create':
+            'user.serializers.UserSerializer',
+        'user_create_password_retype':
+            'user.serializers.UserCreatePasswordRetypeSerializer',
+        'user_delete':
+            'user.serializers.UserDeleteSerializer',
+        'user':
+            'user.serializers.UserSerializer',
+        'current_user':
+            'user.serializers.UserSerializer',
+        'token':
+            'djoser.serializers.TokenSerializer',
+        'token_create':
+            'djoser.serializers.TokenCreateSerializer',
     },
     'PERMISSIONS': {
         'user_delete': ['rest_framework.permissions.IsAdminUser'],

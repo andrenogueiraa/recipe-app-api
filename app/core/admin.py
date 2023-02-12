@@ -1,20 +1,22 @@
 """
 Django admin customization.
 """
+from core.models import Ingredient, Recipe, Tag, User
 from django.contrib import admin
+from django.contrib.admin import ModelAdmin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
+from django.contrib.auth.models import Permission
 from django.utils.translation import gettext_lazy as _
-
-from core import models
+from patrimonio.models import Patrimonio
 
 
 class UserAdmin(BaseUserAdmin):
     """Define the admin pages for users."""
     ordering = ['id']
-    list_display = ['email', 'name']
+    list_display = ['id', 'email', 'name']
     fieldsets = (
-        (None, {'fields': ('email', 'password')}),
-        (_('Personal Info'), {'fields': ('name',)}),
+        (_('Personal Info'), {'fields': ('name', 'email', 'password',)}),
+        (_('Groups'), {'fields': ('groups',)}),
         (
             _('Permissions'),
             {
@@ -28,6 +30,7 @@ class UserAdmin(BaseUserAdmin):
         (_('Important dates'), {'fields': ('last_login',)}),
     )
     readonly_fields = ['last_login']
+    filter_horizontal = ('groups',)
     add_fieldsets = (
         (None, {
             'classes': ('wide',),
@@ -44,7 +47,24 @@ class UserAdmin(BaseUserAdmin):
     )
 
 
-admin.site.register(models.User, UserAdmin)
-admin.site.register(models.Recipe)
-admin.site.register(models.Tag)
-admin.site.register(models.Ingredient)
+class LightAdmin(ModelAdmin):
+    list_per_page = 5
+    list_filter = []
+
+
+class AutoCompleteAdmin(LightAdmin):
+    autocomplete_fields = ['setor', 'responsavel']
+    raw_id_fields = ()
+
+
+class IngredientAdmin(LightAdmin):
+    search_fields = ['name']
+
+
+admin.site.register(Ingredient, IngredientAdmin)
+
+admin.site.register(User, UserAdmin)
+admin.site.register(Recipe, LightAdmin)
+admin.site.register(Tag, LightAdmin)
+admin.site.register(Patrimonio, AutoCompleteAdmin)
+admin.site.register(Permission, LightAdmin)

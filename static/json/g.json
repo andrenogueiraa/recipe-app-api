@@ -1,0 +1,53 @@
+{
+  "nome": "Edificações Irregulares",
+  "letter_cap": "G",
+  "pontuacao": 0,
+  "pontuacao_minima": 20,
+  "items": [
+    {
+      "id": 1,
+      "nome": "Controle legal de uso e ocupação do solo",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Possui Legislação Municipal de Uso e Ocupação do Solo ou similar?",
+          "valor": 10,
+          "observacoes": [
+            "Apresentou cópia da Legislação de Uso de Ocupação do Solo?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Estrutura de fiscalização",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Possui estrutura institucional de controle da aplicação da Lei de Uso e Ocupação do Solo?",
+          "valor": 10,
+          "observacoes": [
+            "Comprovou quadro funcional próprio, convênio ou contrato?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Conselho Municipal de Desenvolvimento Urbano",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Possui Conselho Municipal de Desenvolvimento Urbano atuante?",
+          "valor": 10,
+          "observacoes": [
+            "Apresentou cópia do instrumento legal de criação do conselho, cópia da nomeação e dos documentos dos membros e cópia das atas das reuniões?"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "nome": "Identificação de Fontes de Poluição",
+  "letter_cap": "F",
+  "pontuacao": 0,
+  "pontuacao_minima": 20,
+  "items": [
+    {
+      "id": 1,
+      "nome": "Controle legal da poluição sonora",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Possui Legislação Municipal de Controle e Combate à poluição sonora?",
+          "valor": 5,
+          "observacoes": ["Apresentou cópia da Legislação?"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Ações de combate à poluição sonora",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Realiza ações de combate à poluição sonora?",
+          "valor": 10,
+          "observacoes": [
+            "Apresentou registro fotográfico datado, fotos do veículo de fiscalização adesivado com documento, cópia dos autos de infração, notas fiscais dos equipamentos de aferição?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Controle legal da poluição visual",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Possui Legislação Municipal de Controle e Combate à poluição visual?",
+          "valor": 5,
+          "observacoes": ["Apresentou cópia da legislação?"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Controle legal da poluição atmosférica",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Possui Legislação Municipal de Controle e Combate à poluição atmosférica?",
+          "valor": 5,
+          "observacoes": ["Apresentou cópia da legislação?"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Ações de combate à poluição atmosférica",
+      "span": 1,
+      "requisitos": [
+        {
+          "id": 1,
+          "requisito": "Realiza ações de combate à poluição atmosférica?",
+          "valor": 10,
+          "observacoes": [
+            "Apresentou registro fotográfico datado, fotos do veículo de fiscalização adesivado com documento, laudo técnico de laboratório certificado?"
+          ]
+        }
+      ]
+    }
+  ]
+}

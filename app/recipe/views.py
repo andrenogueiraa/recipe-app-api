@@ -1,28 +1,17 @@
 """
 Views for the recipe APIs
 """
-from drf_spectacular.utils import (
-    extend_schema_view,
-    extend_schema,
-    OpenApiParameter,
-    OpenApiTypes,
-)
-
-from rest_framework import (
-    viewsets,
-    mixins,
-    status,
-)
-from rest_framework.decorators import action
-from rest_framework.response import Response
-from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
-
-from core.models import (
-    Recipe,
-    Tag,
-    Ingredient,
-)
+from core.models import Ingredient, Recipe, Tag
+from drf_spectacular.utils import (OpenApiParameter, OpenApiTypes,
+                                   extend_schema, extend_schema_view)
 from recipe import serializers
+from rest_framework import mixins, status, viewsets
+from rest_framework.viewsets import ReadOnlyModelViewSet
+from rest_framework.decorators import action
+from rest_framework.permissions import (IsAdminUser, IsAuthenticated,
+                                        IsAuthenticatedOrReadOnly)
+from rest_framework.response import Response
+from rest_framework import filters
 
 
 @extend_schema_view(
@@ -41,11 +30,15 @@ from recipe import serializers
         ]
     )
 )
-class RecipeViewSet(viewsets.ModelViewSet):
+class RecipeViewSet(ReadOnlyModelViewSet):
     """View for manage recipe APIs."""
     serializer_class = serializers.RecipeDetailSerializer
     queryset = Recipe.objects.all()
     permission_classes = [IsAuthenticatedOrReadOnly]
+    filter_backends = [filters.SearchFilter, filters.OrderingFilter]
+    search_fields = ['title']
+    ordering_fields = ['title', 'id']
+    ordering = ['title']
 
     # def _params_to_ints(self, qs):
     #     """Convert a list of strings to integers."""
@@ -126,13 +119,23 @@ class BaseRecipeAttrViewSet(mixins.DestroyModelMixin,
     #     ).order_by('-name').distinct()
 
 
-class TagViewSet(BaseRecipeAttrViewSet):
+class TagViewSet(ReadOnlyModelViewSet):
     """Manage tags in the database."""
     serializer_class = serializers.TagSerializer
     queryset = Tag.objects.all()
+    permission_classes = [IsAuthenticated]
+    filter_backends = [filters.SearchFilter, filters.OrderingFilter]
+    search_fields = ['name']
+    ordering_fields = ['name', 'id']
+    ordering = ['name']
 
 
-class IngredientViewSet(BaseRecipeAttrViewSet):
+class IngredientViewSet(ReadOnlyModelViewSet):
     """Manage ingredients in the database."""
     serializer_class = serializers.IngredientSerializer
     queryset = Ingredient.objects.all()
+    permission_classes = [IsAdminUser]
+    filter_backends = [filters.SearchFilter, filters.OrderingFilter]
+    search_fields = ['name']
+    ordering_fields = ['name', 'id']
+    ordering = ['name']

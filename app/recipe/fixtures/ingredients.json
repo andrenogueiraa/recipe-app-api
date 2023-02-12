@@ -1,0 +1,890 @@
+[
+  {
+    "model": "core.ingredient",
+    "pk": 1,
+    "fields": {
+      "name": "Açúcar",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 2,
+    "fields": {
+      "name": "Sal",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 3,
+    "fields": {
+      "name": "Óleo vegetal",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 4,
+    "fields": {
+      "name": "Leite",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 5,
+    "fields": {
+      "name": "Farinha de trigo",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 6,
+    "fields": {
+      "name": "Cebola",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 7,
+    "fields": {
+      "name": "Alho",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 8,
+    "fields": {
+      "name": "Tomate",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 9,
+    "fields": {
+      "name": "Ovo",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 10,
+    "fields": {
+      "name": "Manteiga",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 11,
+    "fields": {
+      "name": "Pimentão",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 12,
+    "fields": {
+      "name": "Azeite",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 13,
+    "fields": {
+      "name": "Limão",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 14,
+    "fields": {
+      "name": "Cenoura",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 15,
+    "fields": {
+      "name": "Batata",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 16,
+    "fields": {
+      "name": "Ervilha",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 17,
+    "fields": {
+      "name": "Feijão",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 18,
+    "fields": {
+      "name": "Cogumelos",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 19,
+    "fields": {
+      "name": "Frango",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 20,
+    "fields": {
+      "name": "Peixe",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 21,
+    "fields": {
+      "name": "Carne bovina",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 22,
+    "fields": {
+      "name": "Carne suína",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 23,
+    "fields": {
+      "name": "Pão",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 24,
+    "fields": {
+      "name": "Queijo",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 25,
+    "fields": {
+      "name": "Erva-doce",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 26,
+    "fields": {
+      "name": "Orégano",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 27,
+    "fields": {
+      "name": "Cominho",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 28,
+    "fields": {
+      "name": "Pimenta preta",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 29,
+    "fields": {
+      "name": "Noz-moscada",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 30,
+    "fields": {
+      "name": "Canela",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 31,
+    "fields": {
+      "name": "Salsinha",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 32,
+    "fields": {
+      "name": "Coentro",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 33,
+    "fields": {
+      "name": "Manjericão",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 34,
+    "fields": {
+      "name": "Alecrim",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 35,
+    "fields": {
+      "name": "Louro",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 36,
+    "fields": {
+      "name": "Açafrão",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 37,
+    "fields": {
+      "name": "Nozes",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 38,
+    "fields": {
+      "name": "Amêndoas",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 39,
+    "fields": {
+      "name": "Coco",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 40,
+    "fields": {
+      "name": "Abacate",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 41,
+    "fields": {
+      "name": "Mel",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 42,
+    "fields": {
+      "name": "Uva-passa",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 43,
+    "fields": {
+      "name": "Passas",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 44,
+    "fields": {
+      "name": "Gengibre",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 45,
+    "fields": {
+      "name": "Açúcar mascavo",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 46,
+    "fields": {
+      "name": "Xarope de bordo",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 47,
+    "fields": {
+      "name": "Melaço",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 48,
+    "fields": {
+      "name": "Mostarda",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 49,
+    "fields": {
+      "name": "Ketchup",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 50,
+    "fields": {
+      "name": "Mostarda Dijon",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 51,
+    "fields": {
+      "name": "Açúcar de coco",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 52,
+    "fields": {
+      "name": "Água de coco",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 53,
+    "fields": {
+      "name": "Cebolinha",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 54,
+    "fields": {
+      "name": "Pimenta vermelha",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 55,
+    "fields": {
+      "name": "Pimenta verde",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 56,
+    "fields": {
+      "name": "Açúcar de palma",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 57,
+    "fields": {
+      "name": "Leite de coco",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 58,
+    "fields": {
+      "name": "Curry",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 59,
+    "fields": {
+      "name": "Gergelim",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 60,
+    "fields": {
+      "name": "Sementes de gergelim",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 61,
+    "fields": {
+      "name": "Coco ralado",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 62,
+    "fields": {
+      "name": "Coco fresco",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 63,
+    "fields": {
+      "name": "Alho-poró",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 64,
+    "fields": {
+      "name": "Cebola roxa",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 65,
+    "fields": {
+      "name": "Pimenta jalapeño",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 66,
+    "fields": {
+      "name": "Pimenta habanero",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 67,
+    "fields": {
+      "name": "Soja",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 68,
+    "fields": {
+      "name": "Gergelim",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 69,
+    "fields": {
+      "name": "Açúcar de palma",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 70,
+    "fields": {
+      "name": "Cogumelos shitake",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 71,
+    "fields": {
+      "name": "Gergelim",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 72,
+    "fields": {
+      "name": "Cogumelos portobello",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 73,
+    "fields": {
+      "name": "Azeitonas",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 74,
+    "fields": {
+      "name": "Azeite de oliva",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 75,
+    "fields": {
+      "name": "Pimenta cayenne",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 76,
+    "fields": {
+      "name": "Ervas frescas (manjericão, salsinha, coentro)",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 77,
+    "fields": {
+      "name": "Gomasio (mistura de gergelim e sal)",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 78,
+    "fields": {
+      "name": "Páprica",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 79,
+    "fields": {
+      "name": "Pesto",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 80,
+    "fields": {
+      "name": "Caril",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 81,
+    "fields": {
+      "name": "Mostarda dijon",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 82,
+    "fields": {
+      "name": "Mostarda amarela",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 83,
+    "fields": {
+      "name": "Uvas passas",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 84,
+    "fields": {
+      "name": "Molho de soja",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 85,
+    "fields": {
+      "name": "Molho inglês",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 86,
+    "fields": {
+      "name": "Molho Worcestershire",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 87,
+    "fields": {
+      "name": "Molho de tomate",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 88,
+    "fields": {
+      "name": "Molho barbecue",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 89,
+    "fields": {
+      "name": "Molho de pimenta",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 90,
+    "fields": {
+      "name": "Molho de gengibre",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 91,
+    "fields": {
+      "name": "Molho de ostra",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 92,
+    "fields": {
+      "name": "Molho de rábano",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 93,
+    "fields": {
+      "name": "Melaço",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 94,
+    "fields": {
+      "name": "Xarope de bordo",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 95,
+    "fields": {
+      "name": "Mel",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 96,
+    "fields": {
+      "name": "Açúcar mascavo",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 97,
+    "fields": {
+      "name": "Açúcar cristal",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 98,
+    "fields": {
+      "name": "Açúcar moreno",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 99,
+    "fields": {
+      "name": "Açúcar de confeiteiro",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 100,
+    "fields": {
+      "name": "Açúcar de coco",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 101,
+    "fields": {
+      "name": "Açúcar mascavo escuro",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 102,
+    "fields": {
+      "name": "Xarope de milho",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 103,
+    "fields": {
+      "name": "Xarope de arroz",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 104,
+    "fields": {
+      "name": "Xarope de bordo",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 105,
+    "fields": {
+      "name": "Xarope de açúcar",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 106,
+    "fields": {
+      "name": "Xarope de maple",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 107,
+    "fields": {
+      "name": "Xarope de agave",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 108,
+    "fields": {
+      "name": "Xarope de mel",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 109,
+    "fields": {
+      "name": "Xarope de milho claro",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 110,
+    "fields": {
+      "name": "Xarope de milho escuro",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.ingredient",
+    "pk": 111,
+    "fields": {
+      "name": "Xarope de arroz",
+      "user": 1
+    }
+  }
+]

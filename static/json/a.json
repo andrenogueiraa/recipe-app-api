@@ -1,0 +1,497 @@
+{
+  "id": "A",
+  "nome": "Gerenciamento de Resíduos Sólidos",
+  "pontuacao_minima": 24,
+  "pontuacao_requerida": 0,
+  "pontuacao_adquirida": 0,
+  "itens": [
+    {
+      "id": 1,
+      "nome": "Armazenamento e acondicionamento",
+      "subitens": [
+        {
+          "id": 1,
+          "nome": "Disponibiliza coletores de lixo na maioria dos logradouros públicos?",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 3
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou registro fotográfico datado das áreas contempladas com coletores?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Coleta e Transporte",
+      "subitens": [
+        {
+          "id": 1,
+          "nome": "Coleta e transporta regularmente os resíduos sólidos urbanos no perímetro urbano de acordo com as normas técnicas?",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 2
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou documento, assinado pelo Diretor ou responsável pelo departamento de limpeza pública, contendo a descrição do Programa de Rotina Coleta, Transporte de Lixo e Varrição, com horários e itinerários?"
+            },
+            {
+              "id": 2,
+              "nome": "Apresentou relatório completo da frota disponibilizada para transporte, incluindo meios alternativos, tais como: carroças, carrinhos, com comprovação de documento de propriedade ou contrato de locação?"
+            },
+            {
+              "id": 3,
+              "nome": "Apresentou cópia do contrato de terceirizado?"
+            },
+            {
+              "id": 4,
+              "nome": "Apresentou cópia dos contracheques de pessoal da limpeza urbana?"
+            },
+            {
+              "id": 5,
+              "nome": "Apresentou evidências no uso de equipamentos de proteção individual (EPI) pelos trabalhadores da coleta (fotos, notas fiscais de aquisição)?"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nome": "E em assentamentos de reforma agrária?",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 2
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou declaração do INCRA atestando a existência do assentamento?"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "nome": "Realiza coleta seletiva de resíduos sólidos e destina para reciclagem? Porcentagem de domicílios: 0% - 24,99% (0 pontos) / 25% - 49,99% (3 pontos) / 50% - 99,99% (5 pontos) / 100% (7 pontos)",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 7
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou programa de coleta seletiva dos resíduos sólidos urbanos?"
+            },
+            {
+              "id": 2,
+              "nome": "Apresentou relatório com percentual das ações realizadas?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Disposição Final",
+      "subitens": [
+        {
+          "id": 1,
+          "nome": "Onde deposita Resíduos Sólidos Urbanos? Lixão, a céu aberto (0 pontos) / Aterro sanitário em processo de licenciamento, sem pendências processuais (2 pontos) / Aterro Sanitário licenciado (7 pontos) / Aterro Sanitário licenciado e operado de acordo com as normas técnicas (10 pontos)",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 10
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou cópia da Licença de Operação do Aterro Sanitário, cópia da certidão de tramitação processual; relatório de pendências processuais (SEMAR)?"
+            },
+            {
+              "id": 2,
+              "nome": "Apresentou registro fotográfico datado do local de destino final dos resíduos?"
+            },
+            {
+              "id": 3,
+              "nome": "Apresentou evidências no uso de equipamentos de proteção individual (EPI) pelos trabalhadores do recolhimento dos resíduos sólidos (fotos, notas fiscais de aquisição)?"
+            },
+            {
+              "id": 4,
+              "nome": "Apresentou relatório de monitoramento do aterro feito pelo órgão licenciador ou auditoria ambiental com ART?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Tratamento",
+      "subitens": [
+        {
+          "id": 1,
+          "nome": "Dispõe de usina de reciclagem?",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 2
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou registro fotográfico datado e Relatório indicando quantidade/destino do produto final (composto)?"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nome": "Realiza práticas de compostagem?",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 2
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou registro fotográfico datado e Relatório indicando quantidade/destino do produto final (composto)?"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "nome": "Realiza incineração de resíduos sólidos?",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 1
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou cópia da Licença Ambiental?"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "nome": "Possui acima de 02 pontos de entrega voluntária de materiais recicláveis?",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 3
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou termo de compromisso de doação do material, firmado entre a prefeitura e a associação ou cooperativa, com fotos datadas?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Limpeza Pública",
+      "subitens": [
+        {
+          "id": 1,
+          "nome": "Executa limpeza regular dos logradouros públicos de acordo com as normas técnicas?",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 3
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou documento, assinado pelo Diretor ou responsável pelo departamento de limpeza pública, contendo a descrição do Programa de Rotina de Coleta, Transporte de Lixo e Varrição, com horários e itinerários, contendo registro fotográfico dos serviços de limpeza?"
+            },
+            {
+              "id": 1,
+              "nome": "Apresentou evidências no uso de equipamentos de proteção individual (EPI) pelos trabalhadores da limpeza (fotos, notas fiscais de aquisição)?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Planejamento",
+      "subitens": [
+        {
+          "id": 1,
+          "nome": "Possui Plano de Gerenciamento Resíduos Sólidos?",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 2
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou cópias de ementas, atas, listas de frequência, fotografias e folders de eventos de educação ambiental (Palestras, Seminários, Cursos, etc)?"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nome": "Possui Plano de Gerenciamento Resíduos de Serviços de Saúde?",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 2
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou cópias dos projetos com descrição das ações e cronogramas?"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "nome": "Realiza ações de educação ambiental voltadas ao gerenciamento de resíduos sólidos urbanos?",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 2
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou relatório das ações de cada projeto?"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "nome": "Realiza ações de educação ambiental voltadas ao gerenciamento de resíduos sólidos de serviços de saúde?",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 2
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou cópias de projetos e políticas de redução e/ou reaproveitamento de resíduos?"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "nome": "Executa ações de redução e reaproveitamento?",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 2
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou cópia de relatórios de execução do(s) projeto(s)?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Resíduos Especiais",
+      "subitens": [
+        {
+          "id": 1,
+          "nome": "Realiza coleta seletiva de RSS?",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 3
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou Plano de Coletiva Seletiva, relatório de procedimentos de vigilância em saúde O lixo hospitalar possui destino separado do domiciliar?"
+            },
+            {
+              "id": 1,
+              "nome": "Apresentou cópia do contrato de prestação de serviço ou do aluguel dos veículos da coleta?"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nome": "Destina RSS separadamente?",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 3
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou documento contendo a caracterização do local de destino final dos resíduos de serviços da saúde, acompanhado de registro fotográfico datado dos veículos que fazem a coleta com documento do veículo, termo de coleta e termo de entrega do aterro sanitário ou de empresa licenciada para este fim?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Atividades com Catadores",
+      "subitens": [
+        {
+          "id": 1,
+          "nome": "O Município realiza atividades de inclusão social e melhoria das condições de trabalho dos catadores?",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 2
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou relatório das atividades desenvolvidas contendo cópias de ementas, atas, listas de frequências, fotografias e folders (Palestras, Seminários, Cursos, etc)?"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nome": "Possui associação e/ou cooperativa?",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 3
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou evidências do recolhimento e destinação dos materiais recicláveis às cooperativas ou associações (fotos datadas da coleta e termo de entrega)?"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "nome": "Apoia o funcionamento da associação ou cooperativa de catadores?",
+          "options": [
+            {
+              "label": "Sim",
+              "value": 5
+            },
+            {
+              "label": "Não",
+              "value": 0
+            }
+          ],
+          "docs": [
+            {
+              "id": 1,
+              "nome": "Apresentou cópia de documento de doação ou cessão de área ou infraestrutura e equipamentos para o bom funcionamento da associação ou cooperativa?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

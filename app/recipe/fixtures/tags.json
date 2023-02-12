@@ -1,0 +1,352 @@
+[
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "fitness",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "lowcarb",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "vegetariana",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "vegana",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "paleo",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "semglúten",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "orgânica",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "gourmet",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "tailandesa",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "indiana",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "mexicana",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "italiana",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "chinesa",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "japonesa",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "coreana",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "francesa",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "grega",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "mediterrânea",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "espanhola",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "portuguesa",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "brasileira",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "argentina",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "peruana",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "colombiana",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "africana",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "asiática",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "latinamericana",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "saudável",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "gordurosa",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "calórica",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "picante",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "doces",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "açucarada",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "desidratada",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "congelada",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "enlatada",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "rápida",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "fácil",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "caseira",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "de rua",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "gourmet",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "festa",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "conforto",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "acompanhamento",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "entrada",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "sopa",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "salada",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "prato principal",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "sobremesa",
+      "user": 1
+    }
+  },
+  {
+    "model": "core.tag",
+    "fields": {
+      "name": "lanche",
+      "user": 1
+    }
+  }
+]
